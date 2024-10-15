@@ -15,7 +15,7 @@ namespace Alura.ByteBank.Aplicacao.DTO
         public Guid Identificador { get; set; }
 
         public AgenciaDTO()
-        {
+        { //comentário teste
             Identificador = Guid.NewGuid();
         }
     }
