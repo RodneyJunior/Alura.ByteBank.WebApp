@@ -17,6 +17,8 @@ namespace Alura.ByteBank.Dados.Contexto
                                    "DataBase=bytebankBD;Uid=root;Pwd=root";
             optionsBuilder.UseMySql(stringconexao, 
                                     ServerVersion.AutoDetect(stringconexao));
+            //andre@email.com
+            //senha01
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
