@@ -19,6 +19,7 @@ namespace Alura.ByteBank.Dados.Contexto
                                     ServerVersion.AutoDetect(stringconexao));
             //andre@email.com
             //senha01
+            //teste
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
