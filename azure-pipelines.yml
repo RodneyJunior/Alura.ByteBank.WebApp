@@ -13,6 +13,7 @@ variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
+  system.debug: true
 
 steps:
 - task: NuGetToolInstaller@1
@@ -36,5 +37,6 @@ steps:
     testAssemblyVer2: |
       **/Alura.Bytebank.Dominio.Testes.dll
     searchFolder: '$(System.DefaultWorkingDirectory)' 
-    codeCoverageEnabled: true
+    codeCoverageEnabled: false
+    runInParallel: false
 
